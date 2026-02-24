@@ -1,4 +1,4 @@
-# 🐍 Snake Q-Learning Agent(Tabular Reinforcement Learning)
+# 🐍 Snake Q-Learning Agent (Tabular Reinforcement Learning)
 
 ## 📌 Project Overview
 
