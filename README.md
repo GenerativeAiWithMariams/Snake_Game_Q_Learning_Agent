@@ -128,7 +128,7 @@ pip install pygame numpy
 ## ▶️ How to Run
 
 ```bash
-python snake_q_learning.py
+python snake_game.py
 ```
 
 ---
