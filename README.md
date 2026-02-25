@@ -120,7 +120,7 @@ num_episodes = 500
 Install dependencies:
 
 ```bash
-pip install pygame numpy
+pip install -r requirements.txt
 ```
 
 ---
