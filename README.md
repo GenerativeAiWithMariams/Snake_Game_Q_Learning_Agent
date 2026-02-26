@@ -176,7 +176,8 @@ This project demonstrates:
 ## 📁 Project Structure
 
 ```
-snake_q_learning.py
+snake_game.py
+requirements.txt
 README.md
 ```
 
