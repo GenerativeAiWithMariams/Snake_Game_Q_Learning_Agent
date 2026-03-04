@@ -148,7 +148,6 @@ Later Episodes:
 * Higher total reward
 
 ---
-
 ## 🚀 Learning Outcomes
 
 This project demonstrates:
@@ -180,7 +179,6 @@ snake_game.py
 requirements.txt
 README.md
 ```
-
 ---
 
 ## 👩‍💻 Author
