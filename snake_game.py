@@ -3,7 +3,6 @@ import random
 import numpy as np
 
 pygame.init()
-
 # ===============================
 # SETTINGS
 # ===============================
@@ -237,12 +236,10 @@ for episode in range(1, num_episodes + 1):
                   food.position[1] * CELL_SIZE + 5))
         pygame.display.update()
 
-
-
-
     # Epsilon decay
     epsilon = max(epsilon_min, epsilon * epsilon_decay)
 
     print(f"Episode {episode} | Total Reward: {total_reward} | Epsilon: {round(epsilon, 3)}")
+
 
 pygame.quit()
