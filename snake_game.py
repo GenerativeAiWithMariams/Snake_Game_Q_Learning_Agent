@@ -74,7 +74,6 @@ class Snake:
             head[0] < 0 or head[0] >= GRID_SIZE or
             head[1] < 0 or head[1] >= GRID_SIZE
         )
-
 # ===============================
 # Q-TABLE
 # State = (head_x, head_y, food_x, food_y)
@@ -91,7 +90,6 @@ epsilon = 1.0
 epsilon_decay = 0.995
 epsilon_min = 0.01
 num_episodes = 500
-
 # ===============================
 # STATE FUNCTION
 # ===============================
@@ -241,5 +239,5 @@ for episode in range(1, num_episodes + 1):
 
     print(f"Episode {episode} | Total Reward: {total_reward} | Epsilon: {round(epsilon, 3)}")
 
-
 pygame.quit()
+
