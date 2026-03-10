@@ -1,7 +1,4 @@
 pygame
-
-
 pandas
-
-
 openpyxl
+
